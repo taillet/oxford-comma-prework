@@ -6,7 +6,7 @@ elsif array.size == 2
   return array.join(" and ")
 elsif array.size == 3
   string = array.pop
-  last = "and " + strong
+  last = "and " + string
   array << last
   return array.join(", ")
 
