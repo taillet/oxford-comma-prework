@@ -9,6 +9,5 @@ elsif array.size == 3
   last = "and " + string
   array << last
   return array.join(", ")
-
   end
 end
